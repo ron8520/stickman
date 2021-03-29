@@ -1,0 +1,143 @@
+[
+  { "levelDetail":
+    { 
+      "_levelDetailComment":  "This is level 1",
+      "levelSize": {
+        "height": 400,
+        "width": 700
+      },
+      "_levelSizeComment": "The first level has 400 height and 700 width",
+      
+      "mushroomPos":{
+        "mushRoomX": 300,
+        "mushRoomY": 240 
+      },
+      "_mushroomPosComment": "It dertermine the mushroom position ",
+
+      "flagPos":{
+        "flagX": 470,
+        "flagY": 240
+      },
+      "_flagPosComment": "It dertermine the flag position",
+
+      "slimePos":[
+        {
+          "slimeX": 200,
+          "slimeY": 337
+        },
+
+        {
+          "slimeX": 55,
+          "slimeY": 87
+        } 
+      ],
+      "_slimePosComment": "It determine each slime strating position",
+
+      "entityPos": [
+        {
+          "entityX": 470,
+          "entityY": 260
+        },
+
+        {
+          "entityX": 440,
+          "entityY": 260
+        },
+
+        {
+          "entityX": 410,
+          "entityY": 260
+        },
+
+        {
+          "entityX": 330,
+          "entityY": 260
+        },
+
+        {
+          "entityX": 300,
+          "entityY": 260
+        },
+
+        {
+          "entityX": 270,
+          "entityY": 260
+        }
+      ],
+      "_footPosComment": "It determine each foot position",
+      
+      "levelfloorheight": 350.0,
+      "_levelfloorheightcomment":"it determine how height of the floor",
+      "stickmanSize": "normal",
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 20.0
+      },
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  },
+
+  { "levelDetail":
+    { 
+      "_levelDetailComment":  "This is level 2",
+
+      "levelSize": {
+        "height": 500.0,
+        "width": 800.0
+      },
+      "_levelSizeComment": "The first level has 500 height and 800 width",
+      
+      "mushroomPos":{
+        "mushRoomX": 90,
+        "mushRoomY": 250
+      },
+      "_mushroomPosComment": "It dertermine the mushroom position",
+      
+      "flagPos":{
+        "flagX": 466,
+        "flagY": 290 
+      },
+      "_flagPosComment": "It dertermine the flag position",
+
+      "slimePos":[
+        {
+          "slimeX": 200,
+          "slimeY": 350
+        },
+
+        {
+          "slimeX": 56,
+          "slimeY": 100
+        }
+      ],
+      "_slimePosComment": "It determine each slime strating position",
+      
+      "entityPos": [
+        {
+          "entityX": 60,
+          "entityY": 270
+        },
+        
+        {
+          "entityX": 90,
+          "entityY": 270
+        }
+      ],
+      "_footPosComment": "It determine each foot position",
+
+      "levelfloorheight": 350.0,
+      "_levelfloorheightcomment":"it determine how height of the floor",
+      "stickmanSize": "Large",
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 25.0
+      },
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  }
+  
+]
